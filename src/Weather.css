@@ -34,10 +34,10 @@
   width: 80px;
 }
 
-.Weather .temperature {
+.temperature {
   font-weight: 400;
   color: rgb(33, 33, 33);
-  font-size: 54px;
+  font-size: 64px;
   line-height: 1;
 }
 

@@ -1,14 +1,14 @@
 import React from "react";
-
+import WeatherIcon from "./WeatherIcon";
 import "./WeatherForecast.css";
 
 export default function WeatherForecast() {
   return (
     <div className="WeatherForecast">
       <div className="row">
-        <div className="col-2">
+        <div className="col">
           <div className="WeatherForecast-day">Sat</div>
-
+          <WeatherIcon data="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png" />
           <div className="WeatherForecast - tempreratures">
             <span className="WeatherForecast-temp-max">19°</span>
             <span className="WeatherForecast-temp-min">10°</span>
